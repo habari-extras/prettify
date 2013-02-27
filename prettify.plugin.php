@@ -9,11 +9,17 @@ class PrettifyPlugin extends Plugin
 		return $content;
 	}
 	
-	public function filter_post_content_long($content)
+	public function alias()
 	{
-		$content = preg_replace_callback('%(<\s*code [^>]*class\s*=\s*(["\'])[^\'"]*prettyprint[^\'"]*\2[^>]*>)(.*?)(</\s*code\s*>)%si', array($this, 'content_callback'), $content);
-		
-		return $content;
+		return array (
+			'filter_post_content_out' => array('filter_post_content_long'),
+		);
+	}
+
+	public function filter_shortcode_code($content, $code, $attrs, $context)
+	{
+		$context = str_replace('</code>', '&lt/code>', $context);
+		return '<code class="prettyprint">' . $context . '</code>';
 	}
 	
 	public function content_callback($matches)

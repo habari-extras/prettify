@@ -5,10 +5,12 @@
 
         <author url="http://asymptomatic.net">Owen Winkler</author>
 
-        <version>1.0.1</version>
+        <version>1.1</version>
         <url>http://redalt.com/Habari/plugins/Prettify</url>
-        <description><![CDATA[Uses teh Prettify Google Code project to make code appear more pleasant in output.]]></description>
+        <description><![CDATA[Uses the Prettify Google Code project to make code appear more pleasant in output.]]></description>
 
         <copyright>2009</copyright>
+
+	<guid>e88ecb2e-7359-40ba-90d8-c401e5aa843b</guid>
 </pluggable>
  
