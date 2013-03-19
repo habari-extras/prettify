@@ -4,9 +4,10 @@
         <license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 
         <author url="http://asymptomatic.net">Owen Winkler</author>
+		<author url="http://elvery.net">Simon Elvery</author>
 
-        <version>1.1</version>
-        <url>http://redalt.com/Habari/plugins/Prettify</url>
+        <version>2.0</version>
+        <url>https://github.com/habari-extras/prettify</url>
         <description><![CDATA[Uses the Prettify Google Code project to make code appear more pleasant in output.]]></description>
 
         <copyright>2009</copyright>
