@@ -1,0 +1,41 @@
+// Modified from Twitter Bootstrap (http://twitter.github.com/bootstrap)
+
+@import 'compass';
+
+.com { color: #93a1a1; }
+.lit { color: #195f91; }
+.pun, .opn, .clo { color: #93a1a1; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .prettyprint .tag { color: #1e347b; }
+.typ, .atn, .dec, .var { color: teal; }
+.pln { color: #48484c; }
+
+.prettyprint {
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  @include clearfix;
+  max-height: 20em;
+  overflow: auto;
+  font-size: 0.78em;
+}
+.prettyprint.linenums {
+	@include box-shadow(inset 2.9em 0 0 #fbfbfc);
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  padding: .4em;
+  margin: 0 0 0 2.9em; /* IE indents via margin-left */
+  padding: 0 1em 0 0;
+  float: left;
+  white-space: pre;
+  background-color: #f7f7f9;
+  border-left: 0.05em solid #ececf0;
+}
+ol.linenums li {
+  padding-left: .6em;
+  color: #bebec5;
+  line-height: 1.3em;
+  text-shadow: 0 1px 0 #fff;
+}

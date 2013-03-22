@@ -1,0 +1,93 @@
+
+@import 'compass';
+
+.pln {
+    color: #000000;
+}
+.str {
+    color: #008800;
+}
+.kwd {
+    color: #000088;
+}
+.com {
+    color: #880000;
+}
+.typ {
+    color: #660066;
+}
+.lit {
+    color: #006666;
+}
+.pun, .opn, .clo {
+    color: #666600;
+}
+.tag {
+    color: #000088;
+}
+.atn {
+    color: #660066;
+}
+.atv {
+    color: #008800;
+}
+.dec, .var {
+    color: #660066;
+}
+.fun {
+    color: red;
+}
+.str {
+    color: #006600;
+}
+.kwd {
+    color: #000066;
+    font-weight: bold;
+}
+.com {
+    color: #660000;
+    font-style: italic;
+}
+.typ {
+    color: #440044;
+    font-weight: bold;
+}
+.lit {
+    color: #004444;
+}
+.pun, .opn, .clo {
+    color: #444400;
+}
+.tag {
+    color: #000066;
+    font-weight: bold;
+}
+.atn {
+    color: #440044;
+}
+.atv {
+    color: #006600;
+}
+.prettyprint {
+    padding: 2px;
+	white-space: pre-wrap;
+	padding: 5px 0;
+	background: #fff;
+	
+	@include border-radius(4px);
+	
+	ol.linenums {
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-left: 3em;
+		li {
+			padding: 0 5px;
+		}
+	}
+	
+	li:nth-child(2n+0) {
+		background: none repeat scroll 0 0 #EEEEEE;
+	}
+}
+
+
